@@ -1,26 +1,40 @@
-# Programming Fundamentals - Assignment 1
+# Programming Fundamentals - Assignment 1 & Review Exercises
 
-**Student Name:** Ali Raza[span_6](start_span)[span_6](end_span)  
-**Roll No:** SU92-BSSEM-F25-016[span_7](start_span)[span_7](end_span)  
-**Section:** 2A - BSSE[span_8](start_span)[span_8](end_span)  
-**Submitted To:** Professor Umar Khalil[span_9](start_span)[span_9](end_span)  
+**Student Name:** Ali Raza  
+**Roll No:** SU92-BSSEM-F25-016  
+**Section:** 2A - BSSE  
+**Submitted To:** Professor Umar Khalil  
 
 ---
 
-## About the Project
-This repository contains C++ source code for Assignment 1[span_10](start_span)[span_10](end_span), focusing on conditional statements (`if-else`), switch structures, and basic input/output formatting using `<iostream>` and `<iomanip>`.
+## Overview
+This repository contains the complete solutions and theory review for **Assignment 1**, which includes C++ programming tasks involving conditional logic (`if-else`, `switch`), arithmetic expressions, and multiple-choice concept reviews covering foundational computer science and C++ elements.
 
-## List of Programs Included:
-1. **Bank Service Fees Calculator:** Computes monthly bank fees based on account balance and checks written[span_11](start_span)[span_11](end_span).
-2. **Headphone Type Selector:** Displays prices based on user selection of headphone categories[span_12](start_span)[span_12](end_span).
-3. **Membership Pricing Calculator:** Calculates gym/club membership totals based on category rates and months[span_13](start_span)[span_13](end_span).
-4. **Internet Service Provider Bill Calculator:** Computes monthly internet bills according to data packages and extra gigabytes used[span_14](start_span)[span_14](end_span).
-5. **Time Converter:** Converts a given number of seconds into days, hours, or minutes[span_15](start_span)[span_15](end_span).
+---
+
+## Part A: Programming Coding Problems (`assignment_01.cpp`)
+
+1. **Bank Service Fees Calculator:** Computes monthly bank service charges based on the initial balance and total checks written[span_1](start_span)[span_1](end_span).
+2. **Headphone Type Selector:** Outputs pricing options corresponding to the chosen headphone category (Noise Canceling, Wireless, Wired Budget)[span_2](start_span)[span_2](end_span).
+3. **Membership Pricing Calculator:** Calculates total subscription costs for adult, child, or senior memberships over a given number of months[span_3](start_span)[span_3](end_span).
+4. **Internet Service Provider Bill Calculator:** Determines monthly billing totals considering base package limits and extra data (gigabytes) usage[span_4](start_span)[span_4](end_span).
+5. **Time Converter:** Converts raw seconds into corresponding larger time units (days, hours, minutes, or seconds)[span_5](start_span)[span_5](end_span).
+
+---
+
+## Part B: Theory & Concept Review (Chapters 1 - 4)
+
+The assignment also includes review questions covering the following foundational modules[span_6](start_span)[span_6](end_span):
+* **Chapter 01: Computer Systems & Logic** – Pseudo-code, ALU operations, source file extensions (`.cpp`), syntax errors, and system software (Operating Systems)[span_7](start_span)[span_7](end_span).
+* **Chapter 02: C++ Elements** – Memory allocation for `int`, type casting/truncation of floating-point values, case sensitivity, variable initialization, and escape sequences (`\n`)[span_8](start_span)[span_8](end_span).
+* **Chapter 03: Expressions & Input** – Multiple input streams (`cin >> a >> b`), operator precedence, high-precision floating-point types (`double`), and output formatting (`fixed` and `setprecision`)[span_9](start_span)[span_9](end_span).
+* **Chapter 04: Decision Making** – Boolean types, nested `if` statements, ternary conditional operators (`? :`), logical NOT (`!`), and switch case constant expressions[span_10](start_span)[span_10](end_span).
 
 ---
 
 ## How to Compile and Run
-Make sure you have a C++ compiler (like GCC/MinGW) installed on your system. Run the following commands in your terminal:
+
+To compile and execute the coding part using a standard C++ compiler (like `g++`):
 
 ```bash
 g++ assignment_01.cpp -o assignment_01
